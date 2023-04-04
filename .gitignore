@@ -1,6 +1,9 @@
 thesis-main.pdf
 *~
 
+## MacOS Files
+.DS_STORE
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
