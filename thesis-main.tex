@@ -6,9 +6,15 @@
 \documentclass[12pt,a4paper,openright,twoside]{book}
 \usepackage[utf8]{inputenc}
 
-%\newcommand{\thesislang}{italian} % decommentare in caso di tesi in italiano
-\newcommand{\thesislang}{english} % commentare in caso di tesi in italiano
+\newcommand{\thesislang}{italian} % decommentare in caso di tesi in italiano
+% \newcommand{\thesislang}{english} % commentare in caso di tesi in italiano
 \usepackage{thesis-style}
+% version
+\newcommand{\versionmajor}{0}
+\newcommand{\versionminor}{1}
+\newcommand{\versionpatch}{2}
+\newcommand{\version}{\versionmajor.\versionminor.\versionpatch}
+\typeout{Document version: \version}
 
 \begin{document}
 	
@@ -16,17 +22,17 @@
 
 \input{front.tex}
 
-\begin{abstract}	
-Max 2000 characters, strict.
-\end{abstract}
+% \begin{abstract}	
+% Max 2000 characters, strict.
+% \end{abstract}
 
-\begin{dedication} % this is optional
-Optional. Max a few lines.
-\end{dedication}
+% \begin{dedication} % this is optional
+% Optional. Max a few lines.
+% \end{dedication}
 
-\begin{acknowledgements} % this is optional
-Optional. Max 1 page.
-\end{acknowledgements}
+% \begin{acknowledgements} % this is optional
+% Optional. Max 1 page.
+% \end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
 \tableofcontents   
@@ -41,87 +47,56 @@ Optional. Max 1 page.
 \label{chap:introduction}
 %----------------------------------------------------------------------------------------
 
-Write introduction here.
+Il sistema ICOS è un sistema europeo creato nel 2007 come parte della ricerca 
+ambientale europea, con l'obiettivo di sviluppare una rete di osservazione del carbonio in Europa
+in grado di monitorare le emissioni e gli assorbimenti di CO2, nonché di altri gas serra,
+in vari ambienti terrestri e marini.\\
 
-%
-\paragraph{Thesis Structure.} % Optional paragraph title
-%
+ICOS si basa su una vasta rete di stazioni di misura che coprono tutta l'Europa e che forniscono 
+dati di alta qualità sul bilancio del carbonio. Queste stazioni di misura sono distribuite in 
+tutta Europa in modo da rappresentare una vasta gamma di ambienti, come foreste, prati, paludi,
+zone umide, fiumi e oceani. Le stazioni utilizzano tecnologie avanzate per misurare il flusso
+di gas serra in queste diverse ambientazioni, come ad esempio la tecnologia di campionamento 
+automatico per l'acqua e l'aria, la misurazione del radon e la tecnologia satellitare.\\
 
-(This is optional an optional paragraph.)
-%
-Accordingly, the reminder of this thesis is structures as follows.
-%
-\Cref{chap:background} discusses (briefly describe the content of \cref{chap:background}).
-%
-Describe other chapters here in a similar way.
-%
-Finally, \Cref{chap:conclusions} concludes this thesis by summarising its main contribution.
+ICOS raccoglie questi dati ambientali per valutare l'impatto del cambiamento climatico
+sul ciclo del carbonio e per sviluppare strategie per mitigare l'impatto delle attività
+umane sul clima. La raccolta e l'analisi dei dati di ICOS sono supportati da tecnologie 
+avanzate del web semantico, che consentono la gestione, l'analisi e la condivisione dei dati 
+ambientali in modo efficace ed efficiente.\\
 
-%----------------------------------------------------------------------------------------
-\chapter{State of the Art} % or Background
-\label{chap:background}
-%----------------------------------------------------------------------------------------
-
-Write background here.
-
-This section is likely to contain a lot of citations.
-%
-For instance in \cite{AnzengruberSocInfo2013} the authors propose a novel means for tackling with the problem of preventing bad things from happening.
+ICOS è stato sviluppato in collaborazione con altri sistemi di osservazione globale del carbonio,
+come il Global Carbon Project e il Copernicus Climate Change Service.
+Il sistema ICOS è stato riconosciuto come una risorsa essenziale per la comprensione
+del bilancio del carbonio in Europa e nel mondo, e il suo contributo è stato riconosciuto
+dalla comunità scientifica e dalle organizzazioni internazionali, come il Panel Intergovernativo
+sui Cambiamenti Climatici (IPCC) e l'Organizzazione per la Cooperazione e lo Sviluppo Economico (OCSE).\\
 
 %----------------------------------------------------------------------------------------
-\chapter{Design} % possible chapter for Projects
-\label{chap:design}
+\chapter{Panoramica di ICOS}
+\label{chap:panoramica}
 %----------------------------------------------------------------------------------------
-
-Write design here.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{figures/classes.pdf}
-	\caption{A class diagram created with PlantUML}
-	\label{fig:classes}
-\end{figure}
-
-You may want to reference images in your thesis.
-%
-In this case, you are encouraged to make them \emph{floating}, and reference them by means of labels.
-%
-For instance, in \Cref{fig:classes}, we describe a class diagram produced by means of \href{http://plantuml.com}{PlantUML}.
-
+TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 %----------------------------------------------------------------------------------------
-\chapter{Implementation} % possible chapter for Projects
-\label{chap:implementation}
+\chapter{Esempi di risorse}
+\label{chap:esempi}
 %----------------------------------------------------------------------------------------
-
-Write implementation here.
-
-\lstinputlisting[
-	float,
-	language=Java,
-	caption={My very first program in Java},
-	label={lst:helloworld},
-]{listings/HelloWorld.java}
-
-You may need to reference listings in your thesis.
-%
-In this case, you are encouraged to make them \emph{floating}, and reference them by means of labels.
-%
-For instance, in \Cref{lst:helloworld}, we describe an hello world program in Java.
-
+TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 %----------------------------------------------------------------------------------------
-\chapter{Validation} % possible chapter for Projects
-\label{chap:validation}
+\chapter{Relazioni}
+\label{chap:relazioni}
 %----------------------------------------------------------------------------------------
-
-Write implementation here
-
+TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+%----------------------------------------------------------------------------------------
+\chapter{Progetti}
+\label{chap:progetti}
+%----------------------------------------------------------------------------------------
+TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 %----------------------------------------------------------------------------------------
 \chapter{\conclusionsname}
 \label{chap:conclusions}
 %----------------------------------------------------------------------------------------
-
-Write conclusions here.
-
+TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 %----------------------------------------------------------------------------------------
 % BIBLIOGRAPHY
