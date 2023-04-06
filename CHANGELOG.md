@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.2.0...1.2.1) (2023-04-06)
+
+
+### Bug Fixes
+
+* merge conflict ([7c387f8](https://github.com/PaoloPenazzi/WS-assignment-1/commit/7c387f8c83c2abcf4f723600fd97b95c6e569cf6))
+* resize image ([1ed5be7](https://github.com/PaoloPenazzi/WS-assignment-1/commit/1ed5be782b8b3c8b9614ca85ae59c177fb0b23ca))
+
 ## [1.2.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.1.0...1.2.0) (2023-04-06)
 
 
