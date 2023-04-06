@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.0.0...1.1.0) (2023-04-06)
+
+
+### Features
+
+* add ICOS vision image ([d782549](https://github.com/PaoloPenazzi/WS-assignment-1/commit/d782549158af393295e25ae0dda2b82c0d7156a9))
+
+
+### Bug Fixes
+
+* fix typo in icos-vision image path ([22bf117](https://github.com/PaoloPenazzi/WS-assignment-1/commit/22bf117054bc7e3bea34e0db8031fe2bfab49831))
+
+
+### General maintenance
+
+* change frontpage style from thesis to report ([6feb574](https://github.com/PaoloPenazzi/WS-assignment-1/commit/6feb5745af172808b5bc87a6806b5db04211a007))
+* remove code and figures listings ([39489f6](https://github.com/PaoloPenazzi/WS-assignment-1/commit/39489f61eaa0735c364e8c1356252eb603f3ffd1))
+
 ## 1.0.0 (2023-04-04)
 
 
