@@ -1,3 +1,24 @@
+## [1.2.1](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.2.0...1.2.1) (2023-04-06)
+
+
+### Bug Fixes
+
+* merge conflict ([7c387f8](https://github.com/PaoloPenazzi/WS-assignment-1/commit/7c387f8c83c2abcf4f723600fd97b95c6e569cf6))
+* resize image ([1ed5be7](https://github.com/PaoloPenazzi/WS-assignment-1/commit/1ed5be782b8b3c8b9614ca85ae59c177fb0b23ca))
+
+## [1.2.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.1.0...1.2.0) (2023-04-06)
+
+
+### Features
+
+* complete introduction chapter ([d85eb58](https://github.com/PaoloPenazzi/WS-assignment-1/commit/d85eb588d0b87b8fc7bd2a3720168cc8fadef87e))
+
+
+### Bug Fixes
+
+* change figure position policy ([dd56bf1](https://github.com/PaoloPenazzi/WS-assignment-1/commit/dd56bf1e7ab6f07418bd8cbdcc6f304fbdcaa054))
+* change image format ([9805b55](https://github.com/PaoloPenazzi/WS-assignment-1/commit/9805b554e5a52599d11afa77cd83d4a9b9fff2ab))
+
 ## [1.1.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.0.0...1.1.0) (2023-04-06)
 
 
