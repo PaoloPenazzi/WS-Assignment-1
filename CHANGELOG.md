@@ -1,3 +1,17 @@
+## [1.3.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.2.1...1.3.0) (2023-04-06)
+
+
+### Features
+
+* add chapter for technologies used in ICOS project ([4a52b54](https://github.com/PaoloPenazzi/WS-assignment-1/commit/4a52b5429f6b48c4dd5bb5873f3296b6fe44e0de))
+* add chapter relatives to data usages ([1d8b8e3](https://github.com/PaoloPenazzi/WS-assignment-1/commit/1d8b8e3601c6d664fa2d718f7b347d4cfea21fb1))
+* add two new chapters to the main file ([dee5027](https://github.com/PaoloPenazzi/WS-assignment-1/commit/dee5027f5491347628f07361c8d7b2068ac023a0))
+
+
+### General maintenance
+
+* resolve merge conflict ([3e39e56](https://github.com/PaoloPenazzi/WS-assignment-1/commit/3e39e56a6cfd733bbe60ee6eed79c2994a2701b0))
+
 ## [1.2.1](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.2.0...1.2.1) (2023-04-06)
 
 
