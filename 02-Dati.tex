@@ -34,4 +34,51 @@ I quattro principi FAIR sono i seguenti:
 \end{itemize}
 
 
-\section{title}
+\section{PIDs}
+Per collegare la proprietà dei dati al dato stesso, ICOS impiega i \textbf{Persistent Identifiers (PIDs)}.
+Questo identificatore univoco utilizza i \textit{DataCite Digital Object Identifiers (DOIs)} per i datasets
+e le collezioni. Questi tag identificano ciascuno \textit{data object} e può essere citato, per esempio,
+in una qualche pubblicazione scientifica. Il PID è creato automaticamente e immediatamente
+non appena il data è caricato; inoltre il dato viene cifrato per assicurarne la validità.\\
+
+Il PID è un indirizzo web valido (URL), che riporta ad una sua specifica landing page,
+dove molteplici informazioni possono essere trovate tra cui i meta-data accessibili sia
+dagli utenti che dalle macchine. L'intero processo garantisce che il dato scaricato e quello
+originale sia esattamente identici con i metadati associati. Altri portali 
+potrebbero usare il PID e il link associato al dato e fornire accesso trasparente al \textit{data object}
+attraverso l'ICOS Carbon Portal.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/PIDex.JPG}
+    \caption{Esempio di pagina web contentente i metadati tra cui il PID (il link della pagina) e il DOI}
+    \label{figure:PIDex}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/DOIex.JPG}
+    \caption{Esempio di DOI che riporta automaticamente ad una risorsa all'intereno del dominio di DataCite}
+    \label{figure:DOIex}
+\end{figure}
+
+
+\section{Data-production Process}
+Il processo di produzione e standardizzazione dei dati segue 11 fasi:
+\begin{itemize}
+    \item \textit{I dati son raccolti presso le stazioni di misurazione}.
+    ICOS possiede circa 150 stazioni di misurazione, suddivisi in 14 paesi,
+    che formano tre reti principali di raccolta (Atmosphere, Ecosystem e Ocean).
+    \item \textit{I dati grezzi vengono salvati in repository sicure}.
+    Essendo i dati il fulcro di questo progetto, inoltre è impossibile raccogliere nuovamente
+    lo stesso dato, i dati vengono salvati entro 24 ore all'interno di
+    data center sicuri.
+    \item \textit{I dati vengono inoltrati al centro di interesse}. Ogni stazione manda i dati dei propri sensori al centro di interesse
+    (Atmosphere, Ecosystem o Ocean), che li processano ulteriormente e su cui svolgono controlli di qualità.
+    \item \textit{I dati sono inoltre inviati al CAL}. Il CAL (Central Analytical Laboratories) ha come obiettivo quello di garantire
+    l'accuratezza delle misure atmosferiche nelle stazioni ICOS.
+    \item \textit{Il centro di interesse elabora i dati}. Il centro di interesse che riceve i dati dovrà controllare la validità dei dati, assicurarne la qualità e
+    standardizzarli. Infine, i dati vengono aggregati in gruppi di misurazioni da mezz'ora o un'ora.
+    \item \textit{Dato trasferiti al Carbon Portal}. Quando i dati sono pronti vengono inviati al Carbon Portal, cercando giorno dopo giorno d ridurre i tempi di delivery di questi dati.
+    \item \textit{Il Carbon Portal riceve e si prende cura di tutti i datasets ICOS}.
+\end{itemize}
