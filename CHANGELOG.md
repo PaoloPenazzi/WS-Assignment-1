@@ -1,3 +1,15 @@
+## [1.5.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.4.0...1.5.0) (2023-04-07)
+
+
+### Features
+
+* add CAL section ([5eea3b7](https://github.com/PaoloPenazzi/WS-assignment-1/commit/5eea3b75403c633638b9fdf0b8e45b6ca038c19e))
+* add chapter for subjects involved in the ICOS project ([d9549e5](https://github.com/PaoloPenazzi/WS-assignment-1/commit/d9549e5bf9ecce23fcdf123d8404c096de163a8c))
+* add data-process section in chapter 2 ([1b0074c](https://github.com/PaoloPenazzi/WS-assignment-1/commit/1b0074cc5e0648245fccf03edb1adab8baad2201))
+* add figure for the ICOS data production ([f6a7a6b](https://github.com/PaoloPenazzi/WS-assignment-1/commit/f6a7a6b126f0e396d9b27c6588da37e74c066d63))
+* add figures for DOI e PID ([6aca99a](https://github.com/PaoloPenazzi/WS-assignment-1/commit/6aca99a04d393d729db72f633e0c3fb5f700215e))
+* finish the section related to the icos data process ([9efe1a6](https://github.com/PaoloPenazzi/WS-assignment-1/commit/9efe1a6204034cbe0b5985dfe7a28a4a1279dbf9))
+
 ## [1.4.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.3.0...1.4.0) (2023-04-06)
 
 
