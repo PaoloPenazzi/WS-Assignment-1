@@ -51,34 +51,49 @@ attraverso l'ICOS Carbon Portal.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/PIDex.JPG}
-    \caption{Esempio di pagina web contentente i metadati tra cui il PID (il link della pagina) e il DOI}
+    \caption{Esempio di pagina web contentente i metadati tra cui il PID (il link della pagina) e il DOI.}
     \label{figure:PIDex}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/DOIex.JPG}
-    \caption{Esempio di DOI che riporta automaticamente ad una risorsa all'intereno del dominio di DataCite}
+    \caption{Esempio di DOI che riporta automaticamente ad una risorsa all'intereno del dominio di DataCite.}
     \label{figure:DOIex}
 \end{figure}
 
 
 \section{Data-production Process}
 Il processo di produzione e standardizzazione dei dati segue 11 fasi:
-\begin{itemize}
+\begin{enumerate}
     \item \textit{I dati son raccolti presso le stazioni di misurazione}.
     ICOS possiede circa 150 stazioni di misurazione, suddivisi in 14 paesi,
-    che formano tre reti principali di raccolta (Atmosphere, Ecosystem e Ocean).
+    che formano tre reti principali di raccolta \ref{section:thematic} (Atmosphere, Ecosystem e Ocean).
     \item \textit{I dati grezzi vengono salvati in repository sicure}.
     Essendo i dati il fulcro di questo progetto, inoltre è impossibile raccogliere nuovamente
     lo stesso dato, i dati vengono salvati entro 24 ore all'interno di
     data center sicuri.
-    \item \textit{I dati vengono inoltrati al centro di interesse}. Ogni stazione manda i dati dei propri sensori al centro di interesse
+    \item \textit{I dati vengono inoltrati al centro di interesse}. Ogni stazione manda i dati dei propri sensori al centro di interesse \ref{section:thematic}
     (Atmosphere, Ecosystem o Ocean), che li processano ulteriormente e su cui svolgono controlli di qualità.
-    \item \textit{I dati sono inoltre inviati al CAL}. Il CAL (Central Analytical Laboratories) ha come obiettivo quello di garantire
+    \item \textit{I dati sono inoltre inviati al CAL}. Il CAL (Central Analytical Laboratories) \ref{section:CAL}
+     ha come obiettivo quello di garantire
     l'accuratezza delle misure atmosferiche nelle stazioni ICOS.
     \item \textit{Il centro di interesse elabora i dati}. Il centro di interesse che riceve i dati dovrà controllare la validità dei dati, assicurarne la qualità e
     standardizzarli. Infine, i dati vengono aggregati in gruppi di misurazioni da mezz'ora o un'ora.
-    \item \textit{Dato trasferiti al Carbon Portal}. Quando i dati sono pronti vengono inviati al Carbon Portal, cercando giorno dopo giorno d ridurre i tempi di delivery di questi dati.
-    \item \textit{Il Carbon Portal riceve e si prende cura di tutti i datasets ICOS}.
-\end{itemize}
+    \item \textit{Dato trasferiti al Carbon Portal}. Quando i dati sono pronti vengono inviati al Carbon Portal \ref{section:carbonportal}, 
+    cercando giorno dopo giorno d ridurre i tempi di delivery di questi dati.
+    \item \textit{Il Carbon Portal riceve e si prende cura di tutti i datasets ICOS}. Il Carbon Portal \ref{section:carbonportal} si occuperà della gestione, dei servizi di visualizzazione e data management legati ai datasets ICOS.
+    \item \textit{Gli utenti possono liberamente agire sui dati}. Chiunque voglia accedere, scaricare e visualizzare i dati potrà farlo dal Carbon Portal \ref{section:carbonportal}.
+    \item \textit{Tutti gli ICOS Data Products sono in data center sicuri}. Copie di tutti i Data Product, e i relativi metadati,
+    sono salvati in maniera sicura in repository dislocate geograficamente (Finalndia, Germania e centro tematico d'iteresse).
+    \item \textit{Le descrizioni dei Data Products devono essere facilmente accessibili}. ICOS si impegna a diffondere tutte le informazioni relative ai Data Product.
+    \item \textit{I dati ICOS devono essere inviabili agli altri centri di ricerca}. Il processo e le infrastrutture per la produzione dei dati ICOS devono fare in modo che i dati prodotti possano essere facilmente 
+    trasferibili ad altri centri di ricerca che potrebbero beneficiarne.
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/data-process.JPG}
+    \caption{Diagramma della processo di produzione e mantenimento dei dati ICOS.}
+    \label{figure:DOIex}
+\end{figure}
