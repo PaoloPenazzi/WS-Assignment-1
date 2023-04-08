@@ -64,18 +64,18 @@ attraverso l'ICOS Carbon Portal.
 
 
 \section{Data-production Process}
-Il processo di produzione e standardizzazione dei dati segue 11 fasi:
+Il processo di produzione e standardizzazione dei dati segue 11 fasi, descritte qui di seguito e nella figura \ref{figure:data-process}:
 \begin{enumerate}
     \item \textit{I dati son raccolti presso le stazioni di misurazione}.
     ICOS possiede circa 150 stazioni di misurazione, suddivisi in 14 paesi,
-    che formano tre reti principali di raccolta \ref{section:thematic} (Atmosphere, Ecosystem e Ocean).
+    che formano tre reti principali di raccolta (\ref{section:thematic}, Atmosphere, Ecosystem e Ocean).
     \item \textit{I dati grezzi vengono salvati in repository sicure}.
     Essendo i dati il fulcro di questo progetto, inoltre è impossibile raccogliere nuovamente
     lo stesso dato, i dati vengono salvati entro 24 ore all'interno di
     data center sicuri.
-    \item \textit{I dati vengono inoltrati al centro di interesse}. Ogni stazione manda i dati dei propri sensori al centro di interesse \ref{section:thematic}
-    (Atmosphere, Ecosystem o Ocean), che li processano ulteriormente e su cui svolgono controlli di qualità.
-    \item \textit{I dati sono inoltre inviati al CAL}. Il CAL (Central Analytical Laboratories) \ref{section:CAL}
+    \item \textit{I dati vengono inoltrati al centro di interesse}. Ogni stazione manda i dati dei propri sensori al centro di interesse
+    (\ref{section:thematic}, Atmosphere, Ecosystem o Ocean), che li processano ulteriormente e su cui svolgono controlli di qualità.
+    \item \textit{I dati sono inoltre inviati al CAL}. Il CAL (\ref{section:CAL}, Central Analytical Laboratories)
      ha come obiettivo quello di garantire
     l'accuratezza delle misure atmosferiche nelle stazioni ICOS.
     \item \textit{Il centro di interesse elabora i dati}. Il centro di interesse che riceve i dati dovrà controllare la validità dei dati, assicurarne la qualità e
@@ -95,5 +95,39 @@ Il processo di produzione e standardizzazione dei dati segue 11 fasi:
     \centering
     \includegraphics[width=0.8\textwidth]{figures/data-process.JPG}
     \caption{Diagramma della processo di produzione e mantenimento dei dati ICOS.}
-    \label{figure:DOIex}
+    \label{figure:data-process}
+\end{figure}
+
+
+\section{Data product levels}
+\label{section:data-level}
+Per definire al meglio quelli che ICOS considera dati "grezzi" da dati "finiti",
+questi dati sono stati raggruppati in 4 possibili livelli, a seconda della qualità.
+
+\begin{enumerate}
+    \item \textbf{Livello Dati 0}. Sono i dati direttamente raccolti dai sensori delle stazioni e quindi non elaborati. Possono assumere diverse forme come immagini, testo o campioni fisici.
+    \item \textbf{Livello Dati 1}. I dati di livello 1 si dividono in due sotto categorie:
+        \begin{itemize}
+            \item \textit{Level 1 Near Real Time data (L1\_NRT)}. Sono dati che 
+            vengono generalmente distribuiti entro 24 ore dalla rilevazione,
+            raggruppati in dataset di alta qualità (che quindi hanno superato
+            controlli di qualità) e resi disponibili automaticamente attraverso
+            il Carbon Portal.  
+            \item \textit{Level 1 Internal or Intermediate Working data (L1\_IW)}.
+            Questi dati sono generati dagli step intermedi per la preparazione dei dati
+            NRT o di livello 2. Per questo motivo non verranno distribuiti ma rimarranno
+            all'interno delle infrastrutture ICOS per controlli di qualità interni
+            e torneranno utili nella produzione dei dati di livello 2.
+        \end{itemize} 
+    \item \textbf{Livello Dati 2}. Sono i dati finali rilasciati da ICOS dopo i più rigorosi
+    controlli, accessibili sul Carbon Portal.
+    \item \textbf{Livello Dati 3}. Tutti i risultati prodotti da ricercatori o enti
+    terzi, quindi esterni ad ICOS, tramite dati ICOS vengono catalogati come dati di livello 3.
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=0.36\textwidth]{figures/metaEx.JPG}
+    \caption{Alcuni dei meta-data che si possono trovare nei dati ICOS: in figura si può notare tra le altre, anche il Data Level.}
+    \label{figure:metadata-ex}
 \end{figure}
