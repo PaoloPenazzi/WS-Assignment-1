@@ -1,3 +1,13 @@
+## [1.7.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.6.0...1.7.0) (2023-04-12)
+
+
+### Features
+
+* add two more figures for carbon portal's section ([016d0b1](https://github.com/PaoloPenazzi/WS-assignment-1/commit/016d0b1641f78e121eaca55ca784656e81b78341))
+* starting the ATC subsection ([8a6e25f](https://github.com/PaoloPenazzi/WS-assignment-1/commit/8a6e25fbc174352412151d8554c3af6858d6b1b1))
+* update bibliography ([fa3137b](https://github.com/PaoloPenazzi/WS-assignment-1/commit/fa3137b4502a54b036b189c44d5a6d0cc5fd0836))
+* update reference in the linked data section ([5f33700](https://github.com/PaoloPenazzi/WS-assignment-1/commit/5f337009f98ddab93002a5a309513744c42fde7e))
+
 ## [1.6.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.5.0...1.6.0) (2023-04-12)
 
 
