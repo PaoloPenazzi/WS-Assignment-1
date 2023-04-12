@@ -1,3 +1,13 @@
+## [1.6.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.5.0...1.6.0) (2023-04-12)
+
+
+### Features
+
+* add biblography ([f4224ef](https://github.com/PaoloPenazzi/WS-assignment-1/commit/f4224efd27a3b3134eb259acb3b83952c256d418))
+* add figure for sparql endpoint ([b1b4251](https://github.com/PaoloPenazzi/WS-assignment-1/commit/b1b42519466d3d7d00d918405b2e77b2d3a13e0c))
+* finish chapter 2 ([86f9d50](https://github.com/PaoloPenazzi/WS-assignment-1/commit/86f9d50520ad38a0799afccada7ac75d330cb65d))
+* update data product levels ([c1f4d48](https://github.com/PaoloPenazzi/WS-assignment-1/commit/c1f4d483a56d4d4f9ebdb9eb0ae5eefb94ac1806))
+
 ## [1.5.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.4.0...1.5.0) (2023-04-07)
 
 
