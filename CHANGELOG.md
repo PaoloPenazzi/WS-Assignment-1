@@ -1,3 +1,11 @@
+## [1.8.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.7.0...1.8.0) (2023-04-13)
+
+
+### Features
+
+* add chapters 5 and 6 to the main file ([988089c](https://github.com/PaoloPenazzi/WS-assignment-1/commit/988089c36a187f7dd2021a7cb3d6c3ff57b22076))
+* finish chapter 4 and update bibliography ([9085497](https://github.com/PaoloPenazzi/WS-assignment-1/commit/90854972370c73ff68bb38b44631e78c50befc6e))
+
 ## [1.7.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.6.0...1.7.0) (2023-04-12)
 
 
