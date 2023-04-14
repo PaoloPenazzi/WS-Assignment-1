@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.8.0...1.9.0) (2023-04-13)
+
+
+### Features
+
+* add fifth and sixth chapter ([5fa2823](https://github.com/PaoloPenazzi/WS-assignment-1/commit/5fa2823cc4938177a867bd96c30aac394bbdd25c))
+
 ## [1.8.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.7.0...1.8.0) (2023-04-13)
 
 
