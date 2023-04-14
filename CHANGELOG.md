@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.10.0...2.0.0) (2023-04-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix a typo in the project description
+
+### General maintenance
+
+* fix a typo in the project description ([d14be53](https://github.com/PaoloPenazzi/WS-assignment-1/commit/d14be5380166ab17d04e3902cabd687915226062))
+
 ## [1.10.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.9.0...1.10.0) (2023-04-14)
 
 
