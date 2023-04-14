@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.9.0...1.10.0) (2023-04-14)
+
+
+### Features
+
+* fix some typos and new references ([fd3975f](https://github.com/PaoloPenazzi/WS-assignment-1/commit/fd3975f2f95cd9514c75fcafa031a082804b6ac3))
+
 ## [1.9.0](https://github.com/PaoloPenazzi/WS-assignment-1/compare/1.8.0...1.9.0) (2023-04-13)
 
 
